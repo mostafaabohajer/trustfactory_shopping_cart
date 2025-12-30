@@ -102,7 +102,7 @@ export default function Index({ products, cartItems }) {
             {
                 preserveScroll: true,
                 preserveState: true,
-                only: ['cartItems', 'flash', 'errors'],
+                only: ['cartItems', 'products', 'flash', 'errors'],
                 onStart: () => setIsSubmitting(true),
                 onFinish: () => setIsSubmitting(false),
             },
